@@ -76,7 +76,7 @@ cd Respi-View-360
 pip install -r requirements.txt
 ```
 ### 3. Run the Inference Notebook
-Open respi-view-360-multimodal-triage-for-respiratory.ipynb to run the model interactively. (Note: You will need to accept the license agreement for MedGemma on Hugging Face before running).
+Open Respi-View-360-Multimodal-Triage-for-Respiratory.ipynb to run the model interactively. (Note: You will need to accept the license agreement for MedGemma on Hugging Face before running).
 
 ## 🤝 Roadmap
 * Core Multimodal Inference (Audio + Vision)
