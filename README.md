@@ -39,7 +39,7 @@ graph TD
 
     subgraph Encoders
     A -->|Audio Embeddings| D["Google HeAR Model"]
-    B -->|Visual Embeddings| E["SigLIP Vision Encoder"]
+    B -->|Visual Embeddings| E["MedSigLIP (MedGemma Model)"]
     end
     
     subgraph Reasoning_Engine
@@ -91,7 +91,7 @@ Open respi-view-360-multimodal-triage-for-respiratory.ipynb to run the model int
 This project is licensed under the Apache 2.0 License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgements
-Google Research for the open-weights MedGemma and HeAR models.
-Hugging Face for the transformers library.
+* Google Research for the open-weights MedGemma and HeAR models.
+* Hugging Face for the transformers library.
 
 
