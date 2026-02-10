@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-yellow)](https://www.python.org/)
-[![Powered By](https://img.shields.io/badge/Powered_By-Google_MedGemma-green)](https://sites.research.google/med-gemma/)
+[![Powered By](https://img.shields.io/badge/Powered_By-Google_MedGemma-green)](https://deepmind.google/models/gemma/medgemma/)
 [![Model Status](https://img.shields.io/badge/Status-Prototype-orange)]()
 [![Code Style](https://img.shields.io/badge/Code%20Style-Black-000000.svg)](https://github.com/psf/black)
 
