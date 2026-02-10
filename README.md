@@ -49,7 +49,49 @@ graph TD
     end
     
     F --> G["Output: Triage Score + Explanation"]
+```
+---
+## 🚀 Features
+* **Real-time Multimodal Analysis:** Correlates visual opacity with acoustic wheeze patterns.
+* **Edge-Native:** Optimized to run on consumer GPUs (8GB VRAM) or high-end tablets using quantization.
+* **Privacy-First:** No data leaves the device. All inference happens locally.
+* **Explainable AI:** Does not just output a "score"—it explains *why* (e.g., *"High risk due to bilateral consolidation in CXR consistent with crackles detected in audio"*).
 
+---
 
+## 🛠️ Installation & Usage
+
+### Prerequisites
+* Python 3.10+
+* GPU with min. 8GB VRAM (NVIDIA recommended for local inference)
+* [Hugging Face Account](https://huggingface.co/) (to access MedGemma weights)
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/lekhan-03/Respi-View-360.git
+cd Respi-View-360
+```
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the Inference Notebook
+Open respi-view-360-multimodal-triage-for-respiratory.ipynb to run the model interactively. (Note: You will need to accept the license agreement for MedGemma on Hugging Face before running).
+
+## 🤝 Roadmap
+* Core Multimodal Inference (Audio + Vision)
+
+* 4-bit Quantization for Edge Devices
+
+* Real-time Auscultation Support (Stethoscope input)
+
+* Multi-language support for patient history
+
+## 📄 License
+This project is licensed under the Apache 2.0 License - see the LICENSE file for details.
+
+## 🙏 Acknowledgements
+Google Research for the open-weights MedGemma and HeAR models.
+Hugging Face for the transformers library.
 
 
